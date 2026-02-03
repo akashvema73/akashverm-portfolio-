@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Verma | Software Engineer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:"Poppins", sans-serif;
+        }
+
+        body{
+            background:#0d0d0d;
+            color:white;
+        }
+
+        /* Navbar */
+        nav{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            padding:20px;
+            background:rgba(0,0,0,0.7);
+            backdrop-filter:blur(10px);
+            position:sticky;
+            top:0;
+            z-index:10;
+        }
+
+        nav a{
+            color:#9bb8ff;
+            text-decoration:none;
+            font-size:18px;
+            transition:0.3s;
+        }
+        nav a:hover{
+            color:#5f8cff;
+        }
+
+        /* Hero */
+        header{
+            text-align:center;
+            padding:80px 20px;
+            background:linear-gradient(135deg,#111,#1c1c35);
+        }
+
+        .photo-box{
+            width:200px;
+            height:180px;
+            margin:0 auto 20px;
+            border-radius:18px;
+            padding:4px;
+            background:linear-gradient(135deg,#5f8cff,#7b52ff,#9bb8ff);
+            box-shadow:0 0 20px #5f8cff;
+        }
+
+        .photo-box img{
+            width:100%;
+            height:100%;
+            border-radius:15px;
+            object-fit:cover;
+        }
+
+        header h1{
+            font-size:46px;
+            margin-bottom:8px;
+        }
+
+        .sub-title{
+            font-size:20px;
+            color:#8ab4ff;
+        }
+
+        /* Section */
+        section{
+            width:90%;
+            max-width:1100px;
+            margin:40px auto;
+            padding:30px;
+            background:black;
+            border-radius:10px;
+            border:1px solid #2b2b2b;
+            box-shadow:0 0 20px #0b0d18;
+        }
+
+        h2{
+            margin-bottom:15px;
+            color:#a9c1ff;
+        }
+
+        /* Skill Categories */
+        .skill-category{
+            margin-bottom:20px;
+        }
+
+        .skill-category h3{
+            font-size:20px;
+            margin-bottom:10px;
+            color:#78aaff;
+        }
+
+        .skills-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+            gap:15px;
+        }
+
+        .skill-box{
+            padding:12px;
+            background:#1c1c1c;
+            border-radius:8px;
+            border:1px solid #2f2f2f;
+            text-align:center;
+            color:#d1d9ff;
+            transition:0.3s;
+        }
+
+        .skill-box:hover{
+            background:#5f8cff;
+            color:#000;
+            transform:scale(1.06);
+        }
+
+        /* Contact */
+        .contact-item{
+            margin:8px 0;
+        }
+
+        .contact-item a{
+            color:#86a7ff;
+        }
+
+        .contact-item a:hover{
+            color:#5f8cff;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            color:#8ab4ff;
+            margin-top:40px;
+            border-top:1px solid #222;
+        }
+        .skill-box {
+    display: block;
+    padding: 12px;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 6px;
+    text-align: center;
+    margin: 5px;
+    color: #d1d9ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    background: #5f8cff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+#skills h2 {
+    margin-bottom: 15px;
+    color: #a9c1ff;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 18px;
+    padding-top: 15px;
+}
+
+.skill-box {
+    display: block;
+    padding: 15px;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #d1d9ff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    background: #5f8cff;
+    color: #000;
+    transform: scale(1.07);
+    box-shadow: 0 0 15px #5f8cff;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#Technical&onlinelearning">Technical Skill & onlinelearning</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header>
+        <div class="photo-box">
+             <img src="\C:\Users\akash\OneDrive\Desktop\akash.jpg.jpeg">
+                 </div>
+
+        <h1>Akash Verma</h1>
+        <p class="sub-title">Software Engineer | Programmer | Tech Learner</p>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm <b>Akash Verma</b>, a passionate Software Engineer from 
+            <b>Shankargarh, Prayagraj, Uttar Pradesh (212108)</b>.
+            I am highly motivated to learn modern software technologies, automate tasks,
+            build real-world applications, and grow continuously in the tech field.
+            I enjoy studying skills online and improving daily through real practice.
+        </p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2>Skills You Can Study Online</h2>
+
+        <!-- Programming -->
+        <div class="skill-category">
+            <h3>🔹 Programming Languages</h3>
+            <div class="skills-grid">
+                <div class="skill-box">Java</div>
+                <div class="skill-box">Python</div>
+                <div class="skill-box">C++</div>
+                <div class="skill-box">JavaScript</div>
+            </div>
+        </div>
+
+        <!-- Development -->
+        <div class="skill-category">
+            <h3>🔹 Software Development Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-box">DSA</div>
+                <div class="skill-box">Spring Boot</div>
+                <div class="skill-box">HTML & CSS</div>
+                <div class="skill-box">Responsive UI</div>
+                <div class="skill-box">MySQL</div>
+            </div>
+        </div>
+
+        <!-- Cybersecurity -->
+        <div class="skill-category">
+            <h3>🔹 Cybersecurity & Ethical Hacking</h3>
+            <div class="skills-grid">
+                <div class="skill-box">Bug Bounty</div>
+                <div class="skill-box">Linux Commands</div>
+                <div class="skill-box">Networking</div>
+                <div class="skill-box">Vulnerability Testing</div>
+            </div>
+        </div>
+
+        <!-- Future Skills -->
+        <div class="skill-category">
+            <h3>🔹 Future Learning</h3>
+            <div class="skills-grid">
+                <a class="skill-box" href="https://www.youtube.com/watch?v=BGTx91t8q50" target="_blank">
+            Java
+        </a>
+                <div class="skill-box">AI Automation</div>
+                         <a class="skill-box" href="https://www.youtube.com/watch?v=BGTx91t8q50" target="_blank">
+            AI Automation
+        </a>
+
+                <div class="skill-box">Machine Learning</div>
+                <div class="skill-box">Cloud Computing</div>
+                <div class="skill-box">DevOps Basics</div>
+            </div>
+        </div>
+    </section>
+
+
+
+<section id="skills">
+    <h2>Technical Skills & Online Learning</h2>
+
+    <div class="skills-grid">
+
+        <!-- Java -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=BGTx91t8q50" target="_blank">
+            Java
+        </a>
+
+        <!-- Python -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=ERCMXc8x7mc" target="_blank">
+            Python
+        </a>
+
+        <!-- HTML/CSS -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=HcOc7P5BMi4" target="_blank">
+            HTML & CSS
+        </a>
+
+        <!-- DSA -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=8hly31xKli0" target="_blank">
+            Data Structures & Algorithms (DSA)
+        </a>
+
+        <!-- Spring Boot -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=9SGDpanrc8U" target="_blank">
+            Spring Boot
+        </a>
+
+        <!-- Cybersecurity -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=U_P23SqJaDc" target="_blank">
+            Cybersecurity
+        </a>
+
+        <!-- Linux -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=gd7BXuUQ91w" target="_blank">
+            Linux Commands
+        </a>
+
+        <!-- Networking -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=qiQR5rTSshw" target="_blank">
+            Networking
+        </a>
+
+        <!-- Automation / AI -->
+        <a class="skill-box" href="https://www.youtube.com/watch?v=i_LwzRVP7bg" target="_blank">
+            AI / Automation
+        </a>
+        <a class="skill-box"href="https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2starget="_blank>Machine Learnings</a>
+
+    </div>
+</section>
+
+
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+
+        <p class="contact-item">
+            <b>Email:</b>  
+            <a href="mailto:av7394090@gmail.com">av7394090@gmail.com</a>
+        </p>
+
+        <p class="contact-item">
+            <b>LinkedIn:</b>  
+            <a href="https://www.linkedin.com/feed/ss" target="_blank">
+                linkedin.com/in/akash-verma-9140b5264/
+            </a>
+        </p>
+
+        <p class="contact-item">
+            <b>GitHub:</b>  
+            <a href="https://github.com/" target="_blank">
+                github.com/akash-verma
+            </a>
+        </p>
+
+        <p class="contact-item">
+            <b>Address:</b>  
+            Shankargarh, Prayagraj, Uttar Pradesh – 212108
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Akash Verma | College Student
+    </footer>
+
+</body>
+</html>
